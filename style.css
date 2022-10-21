@@ -107,8 +107,9 @@ ul {
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 37.5rem;
+    height: 37rem;
+    width: 35.5rem;
+    background-color: #474853;
   }
   
   .bio {
