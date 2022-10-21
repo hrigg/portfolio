@@ -6,8 +6,8 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --primary-color: #4756df;
+  /* --bg-color: #fcfcfc; */
+  --primary-color: #AAA0A0;
   --secondary-color: #1a1310;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
@@ -18,7 +18,7 @@
 }
 /* Variables end */
 body{
-    background-color: #fcfcfc;    
+    background-color: #474853    
 }
 
 html {
@@ -59,9 +59,9 @@ ul {
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
     background-color: var(--bg-color);
-    background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-    
+    /* background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
+    background-color: #844D36;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   }
 
@@ -103,6 +103,7 @@ ul {
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
+    background-color: #474853;
   }
 
   .hero img {
@@ -113,8 +114,8 @@ ul {
   .bio {
     width: 25rem;
     padding: 0.625rem;
-    background-color: #85FFBD;
-background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    background-color: #86B3D1;
+/* background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
 
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
@@ -136,9 +137,7 @@ background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
     width: 50rem;
     border-radius: 6px; */
-    background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-
+    background-color: #86B3D1;
   }
   
   .more-about h2 {
@@ -179,9 +178,10 @@ background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
   }
 
   .projects {
-    background-color: #85FFBD;
+    /* background-color: #85FFBD;
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-
+     */
+     background-color: #86B3D1;
     /* background-color: var(--bg-color); */
     padding: 32px 0;
     margin-top: 2rem;
@@ -244,9 +244,9 @@ background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
     padding: 0.938rem;
     border-radius: 5px;
     box-shadow: 0 3px 10px var(--secondary-shadow);
-    background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-
+    /* background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
+    background-color: #86B3D1;
 
   }
   .contact-form-container label {
